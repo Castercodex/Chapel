@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css" />
+    <title>Chapel</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header id="head">
+      <img src="./img/chapel_logo.jpg" alt="" />
+      <nav>
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <ul>
+          <li><a class="nav-link" id="active" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">Gallery</a></li>
+          <li><a class="nav-link" href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Introdution-->
+    <section id="intro">
+      <img src="./img/logo9.png" alt="" />
+
+      <h1>Adamawa State Government <br />House Chapel Yola</h1>
+      <div class="btn">
+        <a href="#contact"><button id="btn1">Contact</button></a>
+      </div>
+    </section>
+    <!--Gallery-->
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <div class="gal-box">
+        <div class="img">
+          <img src="./img/picl.JPG" alt="" />
+        </div>
+        <div class="img">
+          <img src="./img/pici.JPG" alt="" />
+        </div>
+      </div>
+
+      <button id="btn">More</button>
+    </section>
+    <!--Contact-->
+    <section id="contact">
+      <h2>Contact Us</h2>
+
+      <div class="address-box">
+        <div id="address">
+          <i class="fa fa-compass"></i>
+          <h2>Address</h2>
+          <p>
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipisicing elit. Ullam, odio.
+          </p>
+        </div>
+        <div id="address">
+          <i class="fa fa-phone"></i>
+          <h2>Chaplaincy</h2>
+
+          <p>Chaplain <a href="tel:+234">Call now</a></p>
+
+          <p>Deputy-Chaplain <a href="tel:+234">Call now</a></p>
+        </div>
+
+        <div class="address">
+          <i class="fa fa-inbox"></i>
+          <h2>Email</h2>
+          <a href="mailto:abc@">abcde@gmail.com</a>
+        </div>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Full-name" />
+        <br />
+        <input type="mail" placeholder="Email" />
+        <br />
+        <input type="text" placeholder="Subject" /> <br />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <div class="btn">
+          <button id="btn1">Send</button>
+          <button id="btn2">Reset</button>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <h3>Adamawa State Government House Chapel</h3>
+      <div class="btn">
+        <a href="#"><button>Back to top</button></a>
+      </div>
+      <div id="box">
+        <div class="items">
+          <p>Prayer Focus For The Week</p>
+          <p>Sunday Programme</p>
+          <p>Other Programmes</p>
+        </div>
+        <div class="items">
+          <p>Gallery</p>
+          <p>Chaplains Table</p>
+          <p>Call Now</p>
+        </div>
+
+        <div class="items">
+          <p>Lorem</p>
+          <p>Ipsum</p>
+          <p>Lorem</p>
+        </div>
+      </div>
+      <div class="icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+
+        <a href="#"><i class="fab fa-instagram"></i></a>
+
+        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+      </div>
+
+      <p id="p">
+        Copyright &copy; 2020. Designed By <span>Code-X Creations</span>
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".ham").click(function () {
+          $("ul").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
